@@ -18,6 +18,10 @@ exports.init = settings => {
 // main application
 function liri(args) {
   // call appropriate function based on user input
+  if(args.length === 0){
+    console.log("Please provide a valid command");
+    return false;
+  }
   switch (args[0].toLowerCase()) {
     case "concert-this":
       concertThis(args);
