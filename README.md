@@ -20,7 +20,7 @@ Use `liri movie-this 'movie name'` to pull up Ratings and info on your favorite 
 
 ![Demo-mt](demo-mt.gif)
 
-## default commands
+## Default commands
 
 Liri can read commands from a file named random.txt located in its root folder. Run the command `liri do-what-it-says` to run the command saved in the file.
 
