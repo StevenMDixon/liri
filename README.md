@@ -2,19 +2,19 @@
 
 Liri is a command line node application that allows users to look up songs, local venues, and movies. 
 
-## Find A Concert
+## :round_pushpin: Find A Concert
 
 Use `liri concert-this 'your artist'` to find a list of concerts and their location!
 
 ![Demo](demo-ct.gif)
 
-## Look Up A song
+## :cd: Look Up A song
 
 Use `liri spotify-this-song 'song name'` to pull up information on your favorite songs
 
 ![Demo-st](demo-st.gif)
 
-## Look Up a Movie
+## :vhs: Look Up a Movie
 
 Use `liri movie-this 'movie name'` to pull up Ratings and info on your favorite movie.
 
@@ -24,7 +24,7 @@ Use `liri movie-this 'movie name'` to pull up Ratings and info on your favorite 
 
 Liri can read commands from a file named random.txt located in its root folder. Run the command `liri do-what-it-says` to run the command saved in the file.
 
-## Logging
+## :bookmark_tabs: Logging 
 
 Liri writes all queries into JSON formated log files that can be referenced later.
 
