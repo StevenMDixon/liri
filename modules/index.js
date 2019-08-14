@@ -17,12 +17,10 @@ exports.init = settings => {
 
 // main application
 function liri(args) {
+  // set default for input if none is specified
+  let input = args[0] || '';
   // call appropriate function based on user input
-  if(args.length === 0){
-    console.log("Please provide a valid command");
-    return false;
-  }
-  switch (args[0].toLowerCase()) {
+  switch (input) {
     case "concert-this":
       concertThis(args);
       break;
@@ -34,6 +32,9 @@ function liri(args) {
       break;
     case "do-what-it-says":
       doWhat(args);
+      break;
+    case "": 
+      console.log('Please specify a command');
       break;
     default:
       console.log("Command not valid");
